@@ -30,20 +30,20 @@ public class Main {
 		
 		System.out.println("What is your first shape?");
 		String shape1 = n.next().toLowerCase();
-		System.out.println("What is your first value for this shape? (if your shape is a circle or square, input 0 for the second value)");
+		System.out.println("What is your first value for this shape?");
 		double shp1Val1 = n.nextDouble();
 		if(!(shape1.equals("circle") || shape1.equals("square"))) {
-			System.out.println("What is your second value for this shape? (if your shape is a circle or square, input 0 for the second value)");
+			System.out.println("What is your second value for this shape?");
 			shp1Val2 = n.nextDouble();
 		}
 		
 		
 		System.out.println("What is your second shape?");
 		String shape2 = n.next().toLowerCase();
-		System.out.println("What is your first value for this shape? (if your shape is a circle or square, input 0 for the second value)");
+		System.out.println("What is your first value for this shape?");
 		double shp2Val1 = n.nextDouble();
 		if(!(shape2.equals("circle") || shape2.equals("square"))) {
-			System.out.println("What is your second value for this shape? (if your shape is a circle or square, input 0 for the second value)");
+			System.out.println("What is your second value for this shape?");
 			shp2Val2 = n.nextDouble();
 		}
 
